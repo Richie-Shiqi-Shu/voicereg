@@ -6,7 +6,7 @@ def recog(recognizer, microphone):
     with microphone as source:
         recognizer.adjust_for_ambient_noise(source)
         audio = recognizer.listen(source)
-
+    return audio
 
 if __name__ == '__main__':
     recognizer = sr.Recognizer()
