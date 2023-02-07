@@ -1,6 +1,6 @@
 import speech_recognition as sr
 import sqlite3
-# huhu
+# huhuhuhu
 
 def recog(recognizer, microphone):
     with microphone as source:
