@@ -1,6 +1,5 @@
 import speech_recognition as sr
 import sqlite3
-# huhuhuhu
 
 def recog(recognizer, microphone):
     with microphone as source:
@@ -38,3 +37,4 @@ if __name__ == '__main__':
 
     conn.commit()
     conn.close()
+    #hhh
